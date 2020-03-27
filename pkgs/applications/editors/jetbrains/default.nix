@@ -276,12 +276,12 @@ in
 
   goland = buildGoland rec {
     name = "goland-${version}";
-    version = "2019.3.3"; /* updated by script */
+    version = "2019.3.4"; /* updated by script */
     description = "Up and Coming Go IDE";
     license = stdenv.lib.licenses.unfree;
     src = fetchurl {
       url = "https://download.jetbrains.com/go/${name}.tar.gz";
-      sha256 = "091ym7vyb0hxzz6a1jfb88x0lj499vjd04bq8swmw14m1akmk3lf"; /* updated by script */
+      sha256 = "01dik4ppn4a6m1bmz6cmdnyrilh2v190lrys65n4nps03sjy2v0b"; /* updated by script */
     };
     wmClass = "jetbrains-goland";
     update-channel = "GoLand RELEASE";
@@ -367,12 +367,12 @@ in
 
   ruby-mine = buildRubyMine rec {
     name = "ruby-mine-${version}";
-    version = "2019.3.3"; /* updated by script */
+    version = "2019.3.4"; /* updated by script */
     description = "The Most Intelligent Ruby and Rails IDE";
     license = stdenv.lib.licenses.unfree;
     src = fetchurl {
       url = "https://download.jetbrains.com/ruby/RubyMine-${version}.tar.gz";
-      sha256 = "0lkzb3rifr7r23vijcz7rqcxjpykx7dkghiq5prk1zz83hzi4b2j"; /* updated by script */
+      sha256 = "13lwrqrkg5vk0azqfhr67psgv1idvkxwjxly2xawr6cy5vnrcd8s"; /* updated by script */
     };
     wmClass = "jetbrains-rubymine";
     update-channel = "RubyMine RELEASE";
